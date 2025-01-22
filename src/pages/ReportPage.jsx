@@ -72,6 +72,9 @@ export const ReportPage = () => {
                 onChange={(e) => setStartDate(e.target.value)}
                 fullWidth
                 margin="normal"
+                InputLabelProps={{
+                    shrink: true,
+                }}
             />
             <TextField
                 type="date"
@@ -80,6 +83,9 @@ export const ReportPage = () => {
                 onChange={(e) => setEndDate(e.target.value)}
                 fullWidth
                 margin="normal"
+                InputLabelProps={{
+                    shrink: true,
+                }}
             />
             <Button variant="contained" color="primary" onClick={handleGenerateReport}>
                 Сгенерировать отчет
