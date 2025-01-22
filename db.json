@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@test.ru",
+      "password": "test@test.ru"
+    },
+    {
+      "id": 2,
+      "email": "test2@test.ru",
+      "password": "test2@test.ru"
+    }
+  ],
+  "calls": [
+    {
+      "id": 1,
+      "managerName": "Иванов Иван Иванович",
+      "missed": true,
+      "duration": "5 мин 30 сек",
+      "date": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "managerName": "Иванов Иван Иванович",
+      "missed": true,
+      "duration": "6 мин 30 сек",
+      "date": "2023-01-01"
+    },
+    {
+      "id": 3,
+      "managerName": "Иванов Иван Иванович",
+      "missed": false,
+      "duration": "0",
+      "date": "2024-01-01"
+    },
+    {
+      "id": 4,
+      "managerName": "Иванов Иван Иванович",
+      "missed": true,
+      "duration": "8 мин 30 сек",
+      "date": "2024-02-01"
+    },
+    {
+      "id": 5,
+      "managerName": "Иванов Иван Иванович",
+      "missed": true,
+      "duration": "9 мин 30 сек",
+      "date": "2025-01-01"
+    }
+  ]
+}
